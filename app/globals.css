@@ -50,7 +50,9 @@
     --badge-id: 210 100% 60%;
     --badge-premium: 45 93% 58%;
     --success: 142 71% 45%;
+    --success-foreground: 0 0% 100%;
     --warning: 45 93% 58%;
+    --warning-foreground: 0 0% 5%;
   }
 }
 

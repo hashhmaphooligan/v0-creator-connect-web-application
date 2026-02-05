@@ -71,8 +71,14 @@ const config: Config = {
           id: 'hsl(var(--badge-id))',
           premium: 'hsl(var(--badge-premium))',
         },
-        success: 'hsl(var(--success))',
-        warning: 'hsl(var(--warning))',
+        success: {
+          DEFAULT: 'hsl(var(--success))',
+          foreground: 'hsl(var(--success-foreground))',
+        },
+        warning: {
+          DEFAULT: 'hsl(var(--warning))',
+          foreground: 'hsl(var(--warning-foreground))',
+        },
       },
       borderRadius: {
         lg: 'var(--radius)',
