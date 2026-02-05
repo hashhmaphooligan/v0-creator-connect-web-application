@@ -205,7 +205,7 @@ export default function InfluencerProfile() {
             <div className="flex items-center justify-between p-4 rounded-lg bg-secondary/50 border border-border">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
-                  <Instagram className="w-5 h-5 text-white" />
+                  <Instagram className="w-5 h-5 text-foreground" />
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Instagram</p>
@@ -222,8 +222,8 @@ export default function InfluencerProfile() {
             {/* YouTube */}
             <div className="flex items-center justify-between p-4 rounded-lg bg-secondary/50 border border-border">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-lg bg-red-600 flex items-center justify-center">
-                  <Youtube className="w-5 h-5 text-white" />
+                <div className="w-10 h-10 rounded-lg bg-destructive flex items-center justify-center">
+                  <Youtube className="w-5 h-5 text-destructive-foreground" />
                 </div>
                 <div>
                   <p className="font-medium text-foreground">YouTube</p>
@@ -240,8 +240,8 @@ export default function InfluencerProfile() {
             {/* Twitter */}
             <div className="flex items-center justify-between p-4 rounded-lg bg-secondary/50 border border-border">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-lg bg-black flex items-center justify-center">
-                  <Twitter className="w-5 h-5 text-white" />
+                <div className="w-10 h-10 rounded-lg bg-foreground flex items-center justify-center">
+                  <Twitter className="w-5 h-5 text-background" />
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Twitter / X</p>
